@@ -186,7 +186,7 @@ Bank::Bank()
 	infile.open("Bank.data");
 	if (!infile)
 	{
-		//cout<<"Error in Opening! File Not Found!!"<<endl;
+		cout<<"Error in Opening! File Not Found!!"<<endl;
 		return;
 	}
 	while (!infile.eof())
